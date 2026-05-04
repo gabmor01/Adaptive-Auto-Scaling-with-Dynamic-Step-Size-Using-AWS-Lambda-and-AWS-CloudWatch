@@ -1,1 +1,3 @@
-# Adaptive-Auto-Scaling-with-Dynamic-Step-Size-Using-AWS-Lambda-and-AWS-CloudWatch
+This project implements an adaptive auto-scaling strategy for cloud environments based on the algorithm by Netto et al. Using AWS Lambda and Amazon CloudWatch, the system dynamically monitors resource usage and scales EC2 instances in response to changing workloads.
+
+The approach is evaluated under three realistic traffic patterns (bursty, clustered, and peaky) by analyzing CPU utilization and desired capacity over time. Results show that the system adapts effectively to workload variations, supporting efficient resource usage and demonstrating the algorithm’s suitability for real-world scenarios.
